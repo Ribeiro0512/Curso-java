@@ -1,0 +1,20 @@
+package fundamentos;
+
+public class NotacaoPonto {
+	
+	public static void main(String[] args) {
+		
+		// String inicia com letra maiúscula e String não é tipo primitivo e nem palavra reservada
+		String s = "Bom dia X";
+		// Abaixo vemos alguns métodos podemos chamar por enquanto de "comportamento"
+		s = s.replace("X", "Senhora"); // Substitui uma String por outra
+		s = s.toUpperCase(); // Deixa tudo em maiúsculo
+		s = s.concat("!!!"); // Faz a concatenação
+		
+		System.out.println(s);
+		
+		
+		String x = "Leo".toUpperCase();
+		System.out.println(x);
+	}
+}

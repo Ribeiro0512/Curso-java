@@ -1,0 +1,22 @@
+package fundamentos;
+
+import java.awt.Component;
+import java.util.Date;
+
+import javax.swing.JButton;
+
+public class Import {
+	
+	private static final Component JFrame = null;
+
+	public static void main(String[] args) {
+		String s = "Bom dia!";
+		System.out.println(s);
+		
+		Date d = new Date();
+		System.out.println(d);
+		
+		JButton botao = (JButton) new JButton(clica).add(JFrame);
+		
+	}
+}
